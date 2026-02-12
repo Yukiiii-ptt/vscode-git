@@ -1,1 +1,2 @@
-print("Hello from VS Code and Git!!!")
+for x in range(5):
+    print(x)
