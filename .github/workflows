@@ -33,8 +33,8 @@ jobs:
           push: true
           # 🚨 IMPORTANT: Replace 'your-repo-name' below with your actual Docker Hub repository name
           tags: |
-            ${{ secrets.DOCKERHUB_USERNAME }}/your-repo-name:latest
-            ${{ secrets.DOCKERHUB_USERNAME }}/your-repo-name:${{ github.sha }}
+            ${{ secrets.DOCKERHUB_USERNAME }}/rov:latest
+            ${{ secrets.DOCKERHUB_USERNAME }}/rov:${{ github.sha }}
           # Enable GitHub Actions native cache to make future builds much faster
           cache-from: type=gha
           cache-to: type=gha, mode=max
